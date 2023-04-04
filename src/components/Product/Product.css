@@ -16,6 +16,7 @@
     border: 1px solid wheat;
     border-radius: 8px;
     position: relative;
+    margin-top: 50px;
 }
 .product-name{
     margin-top: 0;
