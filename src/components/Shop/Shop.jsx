@@ -4,7 +4,7 @@ import Product from '../Product/Product';
 const Shop = () => {
     const [products , setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-resources/main/fakeData/products.json')
+        fetch('products.json')
         .then(response => response.json())
         .then(data=>setProducts(data))
 
